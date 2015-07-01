@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditTextPreference android:title="Your Name"
+                            android:key="username"
+                            android:summary="Please provide your username"></EditTextPreference>
+        <CheckBoxPreference android:title="Cities and Knights"
+                            android:defaultValue="false"
+                            android:summary="This option if selected will adjust dice to match the Cities and Knights Expansion."
+                            android:key="citiesAndKnights" />
+    <CheckBoxPreference android:title="Display Roll History"
+                        android:defaultValue="false"
+                        android:summary="This option if selected will display a roll history when the game is paused."
+                        android:key="displayRollHistory" />
+
+</PreferenceScreen>
